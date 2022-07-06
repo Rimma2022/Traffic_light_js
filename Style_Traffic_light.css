@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+div.general {
+    height: 160px;
+    width: 500px;
+    background-color: rgb(245, 236, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.bord {
+    margin-left: 5%;           
+    height: 80%;
+    width: 66%;
+    border: 2px solid grey;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.circle{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%; 
+                         
+}
+#red1 {
+    margin-left: 4%;
+    background-color: #808080;
+}
+#green1 {
+    margin-right: 4%;
+    background-color: grey;
+}
+#orange1{
+    background-color: grey;
+}
+button{
+    margin-right: 5%;
+    height: 80%;
+    width: 20%;
+    background-color: gainsboro;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+}
